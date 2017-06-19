@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\dumea\documents\visual studio 2015\projects\fa_assignment8\fa_assignment8\source.cpp(111): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  FA_Assignment8.vcxproj -> C:\Users\dumea\documents\visual studio 2015\Projects\FA_Assignment8\Debug\FA_Assignment8.exe
+  FA_Assignment8.vcxproj -> C:\Users\dumea\documents\visual studio 2015\Projects\FA_Assignment8\Debug\FA_Assignment8.pdb (Full PDB)

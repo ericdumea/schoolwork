@@ -1,0 +1,9 @@
+﻿  Source.cpp
+Source.cpp(120): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  12 of 639 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  FA_Assignment4_1.vcxproj -> C:\Users\dumea\documents\visual studio 2015\Projects\FA_Assignment4_1\Release\FA_Assignment4_1.exe
+  FA_Assignment4_1.vcxproj -> C:\Users\dumea\documents\visual studio 2015\Projects\FA_Assignment4_1\Release\FA_Assignment4_1.pdb (Full PDB)

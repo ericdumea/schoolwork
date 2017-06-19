@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\dumea\documents\visual studio 2015\projects\fa_assignment3\fa_assignment3\source.cpp(39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  FA_Assignment3.vcxproj -> c:\users\dumea\documents\visual studio 2015\Projects\FA_Assignment3\Debug\FA_Assignment3.exe
+  FA_Assignment3.vcxproj -> c:\users\dumea\documents\visual studio 2015\Projects\FA_Assignment3\Debug\FA_Assignment3.pdb (Full PDB)

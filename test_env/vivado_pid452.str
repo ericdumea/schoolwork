@@ -1,0 +1,1132 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 452
+
+Current time: 	4/27/17 7:15:55 AM GMT-02:00
+Time zone: 	GMT-02:00 (GMT-02:00)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	student
+User home directory: C:/Users/student
+User working directory: D:/30423/Eric Dumea/test_env
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/student/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/student/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	214 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 482 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: D:\30423\Eric Dumea\test_env\test_env.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/30423/Eric Dumea/test_env/test_env.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Grupa 30423/EricD/test_env' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 40 MB (+39549kb) [00:00:04]
+// [Engine Memory]: 443 MB (+313055kb) [00:00:04]
+// [GUI Memory]: 51 MB (+9078kb) [00:00:04]
+// [GUI Memory]: 54 MB (+197kb) [00:00:05]
+// [Engine Memory]: 478 MB (+13607kb) [00:00:05]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// [GUI Memory]: 57 MB (+860kb) [00:00:06]
+// Project name: test_env; location: D:/30423/Eric Dumea/test_env; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 485 MB. GUI used memory: 36 MB. Current time: 4/27/17 7:15:57 AM GMT-02:00
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 42 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_env - Behavioral (test_env.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_env - Behavioral (test_env.vhd)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectCodeEditor("test_env.vhd", 38, 261); // bF:I (JPanel:JComponent, cd:JFrame)
+// [Engine Memory]: 515 MB (+13226kb) [00:00:52]
+// HMemoryUtils.trashcanNow. Engine heap size: 515 MB. GUI used memory: 37 MB. Current time: 4/27/17 7:16:42 AM GMT-02:00
+selectCodeEditor("test_env.vhd", 26, 277); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 34, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 33, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 34, 329); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 36, 345); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 34, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 34, 379); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 33, 393); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 30, 412); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("test_env.vhd", 36, 447); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 32, 465); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 33, 489); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 33, 502); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 33, 514); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 35, 537); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 32, 553); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 447, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 247, 498); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 550, 495); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("test_env.vhd", 30, 519); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 62 MB (+2384kb) [00:01:59]
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 426, 518); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 74 MB (+8619kb) [00:02:02]
+selectCodeEditor("test_env.vhd", 43, 532); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 97, 516); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("test_env.vhd", 423, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectCodeEditor("test_env.vhd", 433, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 78 MB (+636kb) [00:02:45]
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 421, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 99, 344); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectCodeEditor("test_env.vhd", 34, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 437, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 49, 387); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 242, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 82 MB (+73kb) [00:04:12]
+// Elapsed time: 89 seconds
+selectCodeEditor("test_env.vhd", 124, 378); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 254, 380); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("test_env.vhd", 554, 300); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 366, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 361, 397); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 37, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 44, 417); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 93, 413); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 353, 413); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 317, 417); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 28 seconds
+selectCodeEditor("test_env.vhd", 57, 210); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 359, 521); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 38, 555); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 37, 555); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 90 MB (+4221kb) [00:06:04]
+selectCodeEditor("test_env.vhd", 391, 553); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 60 seconds
+selectCodeEditor("test_env.vhd", 35, 430); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 40, 417); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 34, 418); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 96, 417); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 290, 413); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("test_env.vhd", 391, 454); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 374, 449); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 373, 452); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 376, 453, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("test_env.vhd", 384, 454); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 379, 453); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 59, 469); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 39, 470); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 30, 468); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 34, 468, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("test_env.vhd", 37, 467); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 380, 448); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("test_env.vhd", 279, 486); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("test_env.vhd", 93, 485); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 125, 482); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("test_env.vhd", 384, 486); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 384, 480); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 376, 485); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 278, 502); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 125, 496); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 96 seconds
+selectCodeEditor("test_env.vhd", 113, 447); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 111, 467); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 108, 481); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 103, 482); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 110, 484); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 168, 503); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 166, 517); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 219, 535); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 222, 535); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 223, 555); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 109, 518); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Thu Apr 27 07:26:25 2017] Launched synth_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// [Engine Memory]: 553 MB (+13264kb) [00:12:22]
+// Elapsed time: 105 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Thu Apr 27 07:28:12 2017] Launched impl_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 553 MB. GUI used memory: 40 MB. Current time: 4/27/17 7:28:12 AM GMT-02:00
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 70 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Apr 27 07:29:23 2017] Launched impl_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/runme.log 
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false, false, false, false, true, false); // u:K (t:D, cd:JFrame) - Popup Trigger
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true, false, false, false, true, false); // u:K (t:D, cd:JFrame) - Popup Trigger - Node
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26); // u:K (t:D, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 27, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bt:g (cd:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.4   **** Build date : Jan 23 2017-19:37:29     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// Tcl Message: open_hw_target 
+// Tcl Message: ERROR: [Labtoolstcl 44-469] There is no current hw_target. 
+// [GUI Memory]: 97 MB (+2930kb) [00:14:15]
+dismissDialog("Auto Connect"); // bt:g (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// bt:g (cd:JFrame):  Auto Connect : addNotify
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A38A37A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 643 MB (+64739kb) [00:14:21]
+dismissDialog("Auto Connect"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 646 MB. GUI used memory: 45 MB. Current time: 4/27/17 7:30:12 AM GMT-02:00
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A38A37A 
+// TclEventType: HW_SERVER_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 97 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("test_env.vhd", 125, 352, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectCodeEditor("test_env.vhd", 87, 372); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 151, 500); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 24 seconds
+selectCodeEditor("test_env.vhd", 395, 550); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("test_env.vhd", 35, 349); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 52, 522); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 55, 538); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("test_env.vhd", 127, 530); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 100 seconds
+selectCodeEditor("test_env.vhd", 79, 387); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 81, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 87, 414); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 90, 427); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 94, 441); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 94, 451); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("test_env.vhd", 240, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 175, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("test_env.vhd", 135, 328); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 240, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 35, 399); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 53, 451); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 57, 449); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 166, 448); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 156, 450); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("test_env.vhd", 97, 480); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 58, 466); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Thu Apr 27 07:36:41 2017] Launched synth_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 55 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Implementation Settings]", 20, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_IMPL_SETTINGS
+// Project Settings: addNotify
+dismissDialog("Project Settings"); // i:aA (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Thu Apr 27 07:37:41 2017] Launched impl_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 62 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Apr 27 07:38:43 2017] Launched impl_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 47 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 27, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-Basys3-210183A38A37A" may be locked by another hw_server. 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 27, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A38A37A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// HMemoryUtils.trashcanNow. Engine heap size: 670 MB. GUI used memory: 48 MB. Current time: 4/27/17 7:39:37 AM GMT-02:00
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// Elapsed time: 431 seconds
+selectCodeEditor("test_env.vhd", 279, 167); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 275, 183); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 283, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 267, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 270, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 289, 268); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 292, 164); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 306, 175); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 312, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 324, 217); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 290, 255); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 307, 165); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 323, 177); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 324, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 383, 308); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 166, 298); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Thu Apr 27 07:47:22 2017] Launched synth_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 50 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Thu Apr 27 07:48:13 2017] Launched impl_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 71 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Apr 27 07:49:25 2017] Launched impl_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/runme.log 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A38A37A 
+// TclEventType: HW_SERVER_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// TclEventType: RUN_COMPLETED
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Elapsed time: 77 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 27, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A38A37A 
+// TclEventType: HW_SERVER_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 47 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("test_env.vhd", 38, 414); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Apr 27 07:52:22 2017] Launched synth_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/synth_1/runme.log [Thu Apr 27 07:52:22 2017] Launched impl_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 103 MB (+502kb) [00:38:29]
+// Elapsed time: 116 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 27, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// bt:g (cd:JFrame):  Auto Connect : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A38A37A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bt:g (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A38A37A 
+// TclEventType: HW_SERVER_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 102 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+selectCodeEditor("test_env.vhd", 355, 302, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectCodeEditor("test_env.vhd", 221, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 443, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 291, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 285, 247); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("test_env.vhd", 248, 413); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 314, 373); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 249, 415); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("test_env.vhd", 220, 327); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 411, 347); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 225, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 252, 384); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("test_env.vhd", 43, 418); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 65 seconds
+selectCodeEditor("test_env.vhd", 98, 515); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Apr 27 07:58:38 2017] Launched synth_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/synth_1/runme.log [Thu Apr 27 07:58:38 2017] Launched impl_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 670 MB. GUI used memory: 48 MB. Current time: 4/27/17 8:09:38 AM GMT-02:00
+// Elapsed time: 1075 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 27, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A38A37A 
+// TclEventType: HW_SERVER_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 357 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+selectCodeEditor("test_env.vhd", 176, 270); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 285 seconds
+selectCodeEditor("test_env.vhd", 114, 381); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("test_env.vhd", 74, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u:K (t:D, cd:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// [Engine Memory]: 685 MB (+10911kb) [01:13:31]
+// Elapsed time: 115 seconds
+selectCodeEditor("test_env.vhd", 71, 233); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 81, 239); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 86, 227); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("test_env.vhd", 188, 239); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 188, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("test_env.vhd", 276, 195, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectCodeEditor("test_env.vhd", 152, 215); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 334, 478); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("test_env.vhd", 36, 483); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 88, 510); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 58, 497); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 167, 499); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Apr 27 08:31:42 2017] Launched synth_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/synth_1/runme.log [Thu Apr 27 08:31:42 2017] Launched impl_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/runme.log 
+selectCodeEditor("test_env.vhd", 281, 502); // bF:I (JPanel:JComponent, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_TCL_CONSOLE_WINDOW
+// Elapsed time: 10 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // ak:ak (Q:ag, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 32 seconds
+selectCodeEditor("test_env.vhd", 174, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 96, 431); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (p:JPanel, cd:JFrame)
+// aO:g (cd:JFrame): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a:JButton (JPanel:JComponent, aO:g)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aO:g (cd:JFrame)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Apr 27 08:32:45 2017] Launched synth_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/synth_1/runme.log [Thu Apr 27 08:32:45 2017] Launched impl_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 43 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false, false, false, false, true, false); // u:K (t:D, cd:JFrame) - Popup Trigger
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 19 seconds
+selectCodeEditor("test_env.vhd", 437, 148); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 46 seconds
+selectCodeEditor("test_env.vhd", 122, 323); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 101, 312); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 35 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, basys3.xdc]", 6, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, basys3.xdc]", 6, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_env.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B:b
+// Elapsed time: 45 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_env.vhd", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("test_env.vhd", 33, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 292, 284); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 56, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("test_env.vhd", 123, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("test_env.vhd", 249, 264); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 232, 157); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 56, 177); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 231, 159); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 227, 200); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 143, 142); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "test_env.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("test_env.vhd", 96, 159); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 224, 163); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("test_env.vhd", 93, 244); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Thu Apr 27 08:38:58 2017] Launched synth_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/synth_1/runme.log [Thu Apr 27 08:38:58 2017] Launched impl_1... Run output will be captured here: D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 685 MB. GUI used memory: 48 MB. Current time: 4/27/17 8:39:40 AM GMT-02:00
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 106 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 27, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/30423/Eric Dumea/test_env/test_env.runs/impl_1/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
