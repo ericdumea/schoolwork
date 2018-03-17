@@ -1,4 +1,0 @@
-﻿  Source.cpp
-c:\users\dumea\documents\visual studio 2015\projects\fa_assignment6\fa_assignment6\source.cpp(65): warning C4715: 'os_select': not all control paths return a value
-  FA_Assignment6.vcxproj -> C:\Users\dumea\documents\visual studio 2015\Projects\FA_Assignment6\Debug\FA_Assignment6.exe
-  FA_Assignment6.vcxproj -> C:\Users\dumea\documents\visual studio 2015\Projects\FA_Assignment6\Debug\FA_Assignment6.pdb (Full PDB)

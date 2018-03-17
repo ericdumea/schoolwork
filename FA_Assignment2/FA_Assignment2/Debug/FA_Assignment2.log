@@ -1,5 +1,0 @@
-﻿  Source.cpp
-c:\users\dumea\documents\visual studio 2015\projects\fa_assignment2\fa_assignment2\source.cpp(36): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\dumea\documents\visual studio 2015\projects\fa_assignment2\fa_assignment2\source.cpp(88): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  FA_Assignment2.vcxproj -> C:\Users\dumea\documents\visual studio 2015\Projects\FA_Assignment2\Debug\FA_Assignment2.exe
-  FA_Assignment2.vcxproj -> C:\Users\dumea\documents\visual studio 2015\Projects\FA_Assignment2\Debug\FA_Assignment2.pdb (Full PDB)

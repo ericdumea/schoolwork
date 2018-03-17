@@ -1,7 +1,0 @@
-|       Filling |     Avg Effort|     Max Effort|    Avg. Effort|     Max Effort
-|        factor |          found|          found|      not found|      not found
-|0.80           |    1.60|                 23|    4.26|                64
-|0.85           |    1.70|                 22|    5.86|                52
-|0.90           |    1.96|                 31|    8.35|                68
-|0.95           |    2.04|                 30|    16.46|               131
-|0.99           |    2.36|                 41|    28.59|               435
